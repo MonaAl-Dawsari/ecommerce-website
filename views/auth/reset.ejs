@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="/css/sign.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/auth/reset" method="post">
+        <div class="container">
+            <div class="login-container">
+                <div id="output"></div>
+                <div class="form-box">
+                    <form method="POST" action="/auth/signin">
+                    </br>
+                </br>
+                        <h3>Reset Password</h3>
+                    </br>
+                </br>
+                        <input type="text" class="form-control" id="oldPassowrd" name="oldPassword"
+                            placeholder=" Old Password">
+                        </br>
+                    
+                        <input type="text" class="form-control" id="newPassowrd" name="newPassword"
+                            placeholder=" New  Password">
+                        </br>
+                    </br>
+                        <button class="btn btn-info btn-block login" type="submit">Change</button>
+                        <div>
+                            </br>
+                            </br>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>
